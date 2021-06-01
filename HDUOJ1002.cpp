@@ -1,11 +1,11 @@
-//A + B Problem II
+// HDU1002 A + B Problem II
 #include <iostream>
 #include <cstring>
 #include <string>
 
-char *stringSum(const char *s1, const char *s2, char *nRet);
+char* stringSum(const char *s1, const char *s2, char *nRet);
 char charSum(const char c1, const char c2, char &carry);
-char *reverseStr(char *s);
+char* reverseStr(char *s);
 
 int main()
 {
