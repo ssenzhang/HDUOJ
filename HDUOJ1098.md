@@ -2,9 +2,9 @@
 
 ## 一、描述
 
-&emsp;&emsp;已知
+&emsp;&emsp;已知<br/>
 $$f(x)=5x^{13}+13x^5+kax\qquad(k\in{N^*},a\in{N^*},k\leqslant{100})\tag{I}$$
-&emsp;&emsp;求最小的a值使得$65|f(x)$。
+<br/>&emsp;&emsp;求最小的a值使得$65|f(x)$。
 
 ## 二、预备知识
 
@@ -39,7 +39,7 @@ $$
 f(x)=5^{13}+13x^5+kax\qquad(k\in{N^*},a\in{N^*},k\leqslant{10000}),\tag{I}
 $$
 (1) $f(1)=ka+18，弱国对于正整数k存在一个最小的正整数a使得ka+18能被65整除，则f(1)成立，否则不成立$<br/>
-(2) $假设65|f(n),则：$
+(2) $假设65|f(n),则：$<br/>
 $$
 \begin{aligned}
 f(n+1)&=5(n+1)^{13}+13(x+1)^5+ka(x+1)\qquad(k\in{N^*},a\in{N^*},k\leqslant{10000}) \\
@@ -50,6 +50,7 @@ f(n+1)&=5(n+1)^{13}+13(x+1)^5+ka(x+1)\qquad(k\in{N^*},a\in{N^*},k\leqslant{10000
 &=f(n)+65\lbrack\sum_{i=1}^{12}\frac{12!}{i!(13-i)!}+\sum_{i=1}^{4}\frac{4!}{i!(5-i)!}\rbrack+ka+18
 \end{aligned}
 $$
+<br/>
 (3)$综合(1)(2)可知当65|(ka+18)时对于任何n都使得65|f(n)$.
 
 ## 四、数论-费马小定理(？？？)
