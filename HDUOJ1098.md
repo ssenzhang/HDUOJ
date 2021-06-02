@@ -3,7 +3,8 @@
 ## 一、描述
 
 &emsp;&emsp;已知<br/>
-$$f(x)=5x^{13}+13x^5+kax\qquad(k\in{N^*},a\in{N^*},k\leqslant{100})\tag{I}$$
+$$f(x)=5x^{13}+13x^5+kax\qquad(k\in{N^*},a\in{N^*},k\leqslant{100})\tag{I}
+$$
 <br/>&emsp;&emsp;求最小的a值使得$65|f(x)$。
 
 ## 二、预备知识
